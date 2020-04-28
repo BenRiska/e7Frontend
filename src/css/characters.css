@@ -1,0 +1,61 @@
+/* characters styles */
+.characters {
+  min-height: 100vh;
+}
+
+.characters h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  width: 100%;
+  font-weight: 100;
+}
+
+/* filter section */
+.filter {
+  height: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  outline: 1px solid black;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* character list section */
+
+.char-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 1px solid black;
+}
+
+/* character card */
+
+.char {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1rem;
+  outline: 1px solid black;
+  margin: 2rem;
+}
+
+/* char show page */
+
+.char-page {
+  width: 100%;
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}

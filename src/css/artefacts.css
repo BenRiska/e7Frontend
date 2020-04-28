@@ -1,0 +1,57 @@
+/* general styles */
+.artefacts {
+  width: 100%;
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.artefacts h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  font-weight: 100;
+}
+
+/* filter section */
+
+.filter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* artefact container section */
+
+.artefact-container {
+  width: 100;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 1px solid black;
+}
+
+.arte-card {
+  font-size: 1.5rem;
+  outline: 1px solid black;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.arte-card h3 {
+  font-weight: 100;
+}
+
+.arte-page {
+  display: flex;
+  width: 100;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 88vh;
+}

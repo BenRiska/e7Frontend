@@ -1,0 +1,48 @@
+/* general styles */
+
+.items {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.items h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: 100;
+}
+
+/* filter section */
+
+/* item container */
+
+.item-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  outline: 1px solid black;
+}
+
+/* item card*/
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+  outline: 1px solid black;
+}
+
+/* item show page */
+
+.item-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 88vh;
+}
